@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Book List</h1>
+
+    <div id="filter-section">
+        <input type="text" id="search-bar" placeholder="Search for books...">
+        <select id="filter-author">
+            <option value="">All Authors</option>
+            <option value="Author 1">Author 1</option>
+            <option value="Author 2">Author 2</option>
+        </select>
+    </div>
+
+    <div id="book-list"></div>
+    <div id="details-section" style="display: none;"></div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
